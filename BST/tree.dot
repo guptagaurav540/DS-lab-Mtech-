@@ -1,0 +1,28 @@
+digraph g{
+label="root 50 "
+50[root=true]
+50->30;
+50->100;
+30->5;
+30->40;
+100->90;
+100->105;
+5->0;
+5->10;
+40->35;
+40->45;
+90->85;
+90->95;
+105->100[style=dotted];
+0->5[style=dotted];
+10->5[style=dotted];
+10->30[style=dotted];
+35->30[style=dotted];
+35->40[style=dotted];
+45->40[style=dotted];
+45->50[style=dotted];
+85->50[style=dotted];
+85->90[style=dotted];
+95->90[style=dotted];
+95->100[style=dotted];
+}

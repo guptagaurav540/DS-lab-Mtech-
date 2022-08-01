@@ -1,0 +1,22 @@
+Steps to run code -
+    1. There are three file.
+        a.  main.cpp 
+        b.  avl.h
+        c.  Makefile
+    Commands to Compile and run the program - 
+    we have created make file after running command for make an output.o executable file created 
+
+    for run the program type command-
+     make
+     ./output
+
+There are alreasy some elemets are inserted in tree 
+elements are 20,50,100,10,25,150,75
+
+
+After running the program there is a menu for diffrent operations 
+1. insert => For insert an element in tree 
+2. Delete => Delete an element from tree
+3. Search => Search an element 
+4. print => print tree , print function create a dot file and from dot file we      create a png image  
+0.  Exit

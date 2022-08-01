@@ -1,0 +1,49 @@
+main.cpp
+    This is the main application source file. that is used as a main program
+    this program takes input Graph file
+Graph.h 
+    This is header file for Graph it contain class snd function definition
+    and declaration of Graph
+heap.h
+    This is header file for min-heap implementation it contain class and 
+    function definition and declaration of min-heap
+-----------------------------------------------------------------------------------------------------------------------
+How to run the Program :-
+----------------------
+1) Default Input file is already available and program works well without
+    changing anything just compile and run the main.cpp program for comparison.
+    
+    Run on default tets files- 
+        compile - g++ main.cpp -o main
+        Run     - ./main
+    if you want to create new tets file 
+        compile - g++ test_genrate.cpp -o test
+    after the run program ask for Graph input file name
+        test.txt or your test file name
+------------------------------------------------------------------------------------------------------------------------ 
+The main menu have diffrent choice you can choose the option 
+    1.  DFS
+        it aplly dfs on graph an by default create a dfs tree png image with name 
+            "DFS_graph_image.png"
+    
+    2.  tarjan
+        it find the SCC component ans print in console 
+    
+    3.  min-graph 
+        it create the minimum graph and create a minimized image with name 
+            "minimized_graph.png"
+    
+    4.  semi-connected
+        it analyse the graph and print on console that - 
+            graph is semiconnect (if graph is semi connected )
+            graph is not semi connected (if graph is not semi connected)
+    
+    5.  Dijkstra algorithm 
+            it ask start node input 
+            it find the distance of vertices from the start node and create a table
+                    | vertex distance |
+    
+    6.  print original graph    
+            it create the png file of original graph which is we give as a input 
+            with the name of
+                "graph_image.png" 

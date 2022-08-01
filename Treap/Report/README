@@ -1,0 +1,52 @@
+main.cpp
+    This is the main application source file. that is used for genrating the data.csv this program takes input test case file and retuen the data for analaysis of BST,AVL and Treap
+treap.cpp 
+    This is application for running only treap inserting node, searching element, print tree and delete tree
+
+treap.h
+    This is header file for treap it contain class and function definition and declaration of treap 
+
+AVL.h
+    This is header file for AVL it contain class snd function definition and declaration of AVL
+BST.h
+    This is header file for BST it contain class snd function definition and declaration of BST
+
+
+data.csv 
+	This file contain the output from main.cpp file it containt the number of rotation,comparision, number of nodes,  height of tree, test case file name, Tree type 
+
+test_genrate.cpp 
+    This cpp program used for creating five test case it asks number of operation and % of operation you want to as insert operation.
+    it return five file 
+        1. test0.txt
+        2. test1.txt
+        3. test2.txt
+        4. test3.txt
+        5. test4.txt
+testX.txt
+    X may be 0,1,2,3,4
+    these file contain the insert and delete oprations 
+    I have already created the test files if you want to create new test case then you can run the program 
+
+
+How to run the Program :-
+----------------------
+1) Default Input file is already available and program works well without changing anything just compile and run the main.cpp program for comparison.
+    
+    Run on default tets files- 
+        compile - g++ main.cpp -o main
+        Run     - ./main
+
+    if you want to create new tets file 
+        compile - g++ test_genrate.cpp -o test
+        compile - g++ main.cpp -o main
+        Run ./test
+        Run     - ./main
+
+        
+
+
+2) For treap demenstration you can run treap.cpp
+    command- 
+        compile - g++ treap.cpp -o treap
+        Run     - ./treap

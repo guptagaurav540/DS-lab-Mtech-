@@ -1,0 +1,50 @@
+digraph g{
+node [shape=record, height=0.1];
+label="T => Tree edge
+B => Back Edge 
+F => forward edge
+C=> Cross edge"
+"entry_time|node|exit_time"1 [label="<f0>0|<f1>1|<f2>29"];
+1:f1->2:f1[label="T"]
+1:f1->4:f1[label="T"]
+2 [label="<f0>1|<f1>2|<f2>26"];
+2:f1->3:f1[label="T"]
+2:f1->5:f1[style=dotted][label="F"]
+2:f1->12:f1[label="T"]
+3 [label="<f0>2|<f1>3|<f2>15"];
+3:f1->1:f1[style=dotted][label="B"]
+3:f1->7:f1[label="T"]
+4 [label="<f0>27|<f1>4|<f2>28"];
+4:f1->3:f1[style=dotted][label="C"]
+5 [label="<f0>4|<f1>5|<f2>13"];
+5:f1->6:f1[label="T"]
+5:f1->7:f1[style=dotted][label="B"]
+6 [label="<f0>5|<f1>6|<f2>12"];
+6:f1->7:f1[style=dotted][label="B"]
+6:f1->8:f1[label="T"]
+6:f1->9:f1[style=dotted][label="F"]
+6:f1->10:f1[style=dotted][label="F"]
+7 [label="<f0>3|<f1>7|<f2>14"];
+7:f1->5:f1[label="T"]
+8 [label="<f0>6|<f1>8|<f2>11"];
+8:f1->10:f1[label="T"]
+9 [label="<f0>8|<f1>9|<f2>9"];
+9:f1->10:f1[style=dotted][label="B"]
+10 [label="<f0>7|<f1>10|<f2>10"];
+10:f1->9:f1[label="T"]
+11 [label="<f0>22|<f1>11|<f2>23"];
+11:f1->16:f1[style=dotted][label="C"]
+11:f1->12:f1[style=dotted][label="B"]
+12 [label="<f0>16|<f1>12|<f2>25"];
+12:f1->13:f1[label="T"]
+13 [label="<f0>17|<f1>13|<f2>24"];
+13:f1->15:f1[label="T"]
+13:f1->12:f1[style=dotted][label="B"]
+13:f1->11:f1[label="T"]
+14 [label="<f0>30|<f1>14|<f2>31"];
+14:f1->13:f1[style=dotted][label="C"]
+15 [label="<f0>18|<f1>15|<f2>21"];
+15:f1->16:f1[label="T"]
+16 [label="<f0>19|<f1>16|<f2>20"];
+16:f1->15:f1[style=dotted][label="B"]
+}
